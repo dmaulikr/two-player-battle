@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF02207F1CFA8B380012BB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02207E1CFA8B380012BB73 /* AppDelegate.swift */; };
+		BF0220811CFA8B380012BB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0220801CFA8B380012BB73 /* ViewController.swift */; };
+		BF0220841CFA8B380012BB73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0220821CFA8B380012BB73 /* Main.storyboard */; };
+		BF0220861CFA8B380012BB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0220851CFA8B380012BB73 /* Assets.xcassets */; };
+		BF0220891CFA8B380012BB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0220871CFA8B380012BB73 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF02207B1CFA8B380012BB73 /* two-player-battle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "two-player-battle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02207E1CFA8B380012BB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0220801CFA8B380012BB73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0220831CFA8B380012BB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0220851CFA8B380012BB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0220881CFA8B380012BB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF02208A1CFA8B380012BB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0220781CFA8B380012BB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0220721CFA8B380012BB73 = {
+			isa = PBXGroup;
+			children = (
+				BF02207D1CFA8B380012BB73 /* two-player-battle */,
+				BF02207C1CFA8B380012BB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF02207C1CFA8B380012BB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF02207B1CFA8B380012BB73 /* two-player-battle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF02207D1CFA8B380012BB73 /* two-player-battle */ = {
+			isa = PBXGroup;
+			children = (
+				BF02207E1CFA8B380012BB73 /* AppDelegate.swift */,
+				BF0220801CFA8B380012BB73 /* ViewController.swift */,
+				BF0220821CFA8B380012BB73 /* Main.storyboard */,
+				BF0220851CFA8B380012BB73 /* Assets.xcassets */,
+				BF0220871CFA8B380012BB73 /* LaunchScreen.storyboard */,
+				BF02208A1CFA8B380012BB73 /* Info.plist */,
+			);
+			path = "two-player-battle";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF02207A1CFA8B380012BB73 /* two-player-battle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02208D1CFA8B380012BB73 /* Build configuration list for PBXNativeTarget "two-player-battle" */;
+			buildPhases = (
+				BF0220771CFA8B380012BB73 /* Sources */,
+				BF0220781CFA8B380012BB73 /* Frameworks */,
+				BF0220791CFA8B380012BB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "two-player-battle";
+			productName = "two-player-battle";
+			productReference = BF02207B1CFA8B380012BB73 /* two-player-battle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0220731CFA8B380012BB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dreison Software";
+				TargetAttributes = {
+					BF02207A1CFA8B380012BB73 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DP82869RE2;
+					};
+				};
+			};
+			buildConfigurationList = BF0220761CFA8B380012BB73 /* Build configuration list for PBXProject "two-player-battle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0220721CFA8B380012BB73;
+			productRefGroup = BF02207C1CFA8B380012BB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF02207A1CFA8B380012BB73 /* two-player-battle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0220791CFA8B380012BB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0220891CFA8B380012BB73 /* LaunchScreen.storyboard in Resources */,
+				BF0220861CFA8B380012BB73 /* Assets.xcassets in Resources */,
+				BF0220841CFA8B380012BB73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0220771CFA8B380012BB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0220811CFA8B380012BB73 /* ViewController.swift in Sources */,
+				BF02207F1CFA8B380012BB73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF0220821CFA8B380012BB73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0220831CFA8B380012BB73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0220871CFA8B380012BB73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0220881CFA8B380012BB73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF02208B1CFA8B380012BB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF02208C1CFA8B380012BB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF02208E1CFA8B380012BB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "two-player-battle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreisonsoftware.two-player-battle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF02208F1CFA8B380012BB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "two-player-battle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreisonsoftware.two-player-battle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0220761CFA8B380012BB73 /* Build configuration list for PBXProject "two-player-battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02208B1CFA8B380012BB73 /* Debug */,
+				BF02208C1CFA8B380012BB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02208D1CFA8B380012BB73 /* Build configuration list for PBXNativeTarget "two-player-battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02208E1CFA8B380012BB73 /* Debug */,
+				BF02208F1CFA8B380012BB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0220731CFA8B380012BB73 /* Project object */;
+}
