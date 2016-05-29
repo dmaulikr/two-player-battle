@@ -39,7 +39,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onBattlePress(sender: AnyObject) {
+        enemyHpLabel.hidden = false
+        playerHpLabel.hidden = false
+        enemyAttackButton.hidden = false
+        enemyAttackLabel.hidden = false
+        playerAttackButton.hidden = false
+        playerAttackLabel.hidden = false
+        enemyImage.hidden = false
+        playerImage.hidden = false
         
+        battleButton.hidden = true
+        battleButtonLabel.hidden = true
     }
 
 }
