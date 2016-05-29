@@ -10,16 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var printLabel: UILabel!
+    @IBOutlet weak var enemyHpLabel: UILabel!
+    @IBOutlet weak var playerHpLabel: UILabel!
+    @IBOutlet weak var enemyAttackButton: UIButton!
+    @IBOutlet weak var enemyAttackLabel: UILabel!
+    @IBOutlet weak var playerAttackButton: UIButton!
+    @IBOutlet weak var playerAttackLabel: UILabel!
+    @IBOutlet weak var enemyImage: UIImageView!
+    @IBOutlet weak var playerImage: UIImageView!
+    @IBOutlet weak var battleButton: UIButton!
+    @IBOutlet weak var battleButtonLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onEnemyAttack(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func onPlayerAttack(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func onBattlePress(sender: AnyObject) {
+        
+    }
 
 }
 
